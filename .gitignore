@@ -1,0 +1,9 @@
+# Ignore Logs
+logs
+*.log
+*.pub
+*.tfstate
+*.tfstate*
+extra/
+.*
+!/.gitignore
