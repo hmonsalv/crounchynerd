@@ -7,10 +7,15 @@ In this lab we will deploy a WebApp with a MySQL backend in K8s.
 We will keep 1 replica for all microservcies.
 
 ### K8s manifest files
-- db-config.yaml
-- db-secret.yaml
-- db.yaml
+- mysql-config.yaml
+- mysql-secret.yaml
+- mysql.yaml
 - webapp.yaml
+
+> 	**IMPORTANT:** use the following command to create the base4 secret
+> values (remark on the **-n**): 	
+
+    echo -n xxxx | base64
 
 ### WebApp
 https://hub.docker.com/repository/docker/hmonsalv/getting-started
