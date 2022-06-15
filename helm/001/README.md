@@ -12,5 +12,6 @@ Name of the chart: **ghost**
 
 ### Install the Helm Chart into K8s cluster
 This will deploy the Helm Chart with the name **demo**:
+
     helm install demo ghost
 
